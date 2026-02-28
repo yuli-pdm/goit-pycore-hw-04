@@ -30,5 +30,6 @@ def total_salary(path: str) -> tuple[int, float]:
         print(f"Error reading file: {e}")
         return (0, 0.0)
     
-result = total_salary("salaries.txt")
-print(result)
+if __name__ == "__main__":
+    result = total_salary("salaries.txt")
+    print(result)

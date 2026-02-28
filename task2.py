@@ -35,6 +35,7 @@ def get_cats_info(path: str) -> list[dict]:
 
     return cats
 
-cats = get_cats_info("cats.txt")
-print(cats)
+if __name__ == "__main__":
+    cats = get_cats_info("cats.txt")
+    print(cats)
 
